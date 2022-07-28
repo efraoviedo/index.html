@@ -1,0 +1,187 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:  100%;
+    Min-Width: 550px;
+    background-color: #b3b3e9;
+}
+
+.container {
+   padding-left: 30px;
+   background-color: #1f2937;
+   color: whitesmoke;
+   height: 310px;
+}
+
+   .header-logo {
+      font-size: 30px;
+      background-color: rgb(44, 62, 62)  ;
+      color: rgb(243, 237, 237);
+      color:#b3b3e9;
+      padding: 17px;
+      border-color: red;
+      border-radius: 23px;
+   }
+ nav, .links {
+   color: white;
+   display: flex;
+   
+}  
+
+nav, .div,  .links {
+   
+   text-align: right;
+   color: #e5e7eb;
+   margin: right 50px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media screen {
+    .links {
+       display: contents;
+       color: white;
+        font-size: 20px;
+    }   
+   
+}
+
+.img {
+   
+   width: 85%;
+   height: 10px;
+   text-align-last: right;
+}
+
+input[type="button" i] {
+   padding: 8px;
+   background-color: yellow;
+   margin: 18px;
+   margin-right: 30px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+input[type="button" i]:hover {
+   background-color: aquamarine;
+}
+
+.tittle {
+    width: 500px;
+    color: whitesmoke;
+    margin-left: 5px;
+    padding-inline-start: 10px;
+}
+
+h1 {
+   display: block;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+   text-align: justify;
+}
+
+
+ .div .main-tittle,  p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 25px;
+}  
+
+ .random-div {
+    width: 80%;
+    color: rgb(14, 21, 129);
+    height: 430px;
+    margin: 10%;
+    margin-top:  10px;
+} 
+
+.info-header {
+   color: extra-bold#1f2937;
+   text-align: center;
+   padding: 30px;
+   font-size:  36px;
+}
+
+.pictures {
+   display: flex;
+   border-color: navajowhite;
+   border-radius: solid 8px;
+   text-align: center;
+   padding: 5px;
+   font-size: 20px;
+}
+
+.pictures, a href {
+   border-radius: 18px;
+}
+.hero-div {
+   background-color:  #e5e7eb;
+   width: 100%; 
+   height: 350px;
+   margin: 0%;
+   margin-top:  -120px;
+   
+  
+} 
+
+.quote-text {
+    padding: 30px;
+   width: 60%;
+   height: 250px;
+   font-style: italic;
+   font-size: 25px;
+   color:  #021737 solid;                  
+   flex-direction: column;      
+   text-align:  left;    
+   align-content: center;      
+}
+
+@media screen and (min-width: 10px) {
+   .quote-text {
+     float: right;
+     width: 60%;
+   }
+}
+
+.blue-box {
+  
+   width: 80%; 
+   height: 150px;
+   margin: 10%;
+   margin-top:  -60px;
+   text-align: center;
+   align-items:  end;
+}
+   
+.signup-div {
+ text-align: center;
+   width: 100%;
+   height: 130px;
+   background-color: rgb(48, 48, 244);
+   border-radius: 8px  8px;
+   color: azure;
+   display: inline-grid ;
+   justify-items: center;
+}
+
+   input[type="sign-btn" i] {
+   border-color: antiquewhite;
+   background-color: #2121e6 ;
+   color-scheme:  transition;
+   color: #e5e7eb;
+   border-radius: 6px;
+   text-align: inherit;
+   cursor: pointer;
+}
+
+footer, dark-background {
+   background-color:  #1f2937;
+   color: azure;
+   height: 40px;
+   margin-top:  0px;
+   margin-bottom: auto;
+   text-align: center;
+   padding-top: 35px;
+}
